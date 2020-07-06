@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import Swal from 'sweetalert2';
 
-const Formulario = props => {
+const Formulario = ({setBusquedaLetra}) => {
 
     const [busqueda, setBusqueda] = useState({
         artista: '',
@@ -35,6 +35,7 @@ const Formulario = props => {
         }
 
         //Pasar al componente principal
+        setBusquedaLetra(busqueda);
     }
 
     return (
@@ -51,7 +52,7 @@ const Formulario = props => {
                                         href="https://github.com/ManuelBlaze/InfoCanciones_react" 
                                         target="_blank"     
                                         rel="noopener noreferrer"
-                                    > <i class="fab fa-github"></i></a>
+                                    > <i className="fab fa-github"></i></a>
                             </legend>
 
                             <div className="row">
@@ -97,7 +98,7 @@ const Formulario = props => {
 }
 
 Formulario.propTypes = {
-
-}
+	setBusquedaLetra: PropTypes.func.isRequired
+};
 
 export default Formulario;
