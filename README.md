@@ -1,3 +1,10 @@
+<h1> Letras e información Banda </h1>
+
+Proyecto de práctica React consumiendo api de:
+https://lyricsovh.docs.apiary.io/
+y
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
