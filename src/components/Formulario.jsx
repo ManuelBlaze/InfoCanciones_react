@@ -48,7 +48,7 @@ const Formulario = ({setBusquedaLetra}) => {
                     >
                         <fieldset>
                             <legend className="text-center">
-                                Buscador Letras Canciones <a 
+                                Letras e Información | React <a 
                                         href="https://github.com/ManuelBlaze/InfoCanciones_react" 
                                         target="_blank"     
                                         rel="noopener noreferrer"
